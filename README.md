@@ -1,5 +1,5 @@
-*Search Engine for any website  
+Search Engine for any website  
   
-*Scrapy Crawler  
-*ElasticSearch for storage and search  
-*UI with Flask  
+Scrapy Crawler  
+ElasticSearch for storage and search  
+UI with Flask  
