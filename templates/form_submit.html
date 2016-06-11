@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>My Search Engine</title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div id="container">
+            <div class="title">
+                <a href="/" style="text-decoration:none;"><h1>My Search Engine</h1></a>
+            </div>
+            <div id="content">
+                <form method="post" action="/search">
+                  <label for="query">Enter query:</label>
+                  <input type="text" name="query" /><br />
+                  <input type="submit" />
+                </form>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+{% include "form_submit.html" %}
+
+<div id="container">
+    <div class="title">
+        <h1>Results:</h3>
+    </div>
+    <div id="content">
+        {%for hit in hits %}
+            <div id="container">
+                <div id="result">
+                    <a href="{{ hit._source._values.url}}"><p>{{ hit._source._values.header }}</p></a>
+                    <p> {{ hit._source._values.body|truncate(255,True)}}</p>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
