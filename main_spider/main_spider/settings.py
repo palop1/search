@@ -14,6 +14,8 @@ BOT_NAME = 'main_spider'
 SPIDER_MODULES = ['main_spider.spiders']
 NEWSPIDER_MODULE = 'main_spider.spiders'
 
+ROBOTSTXT_OBEY = True
+
 DOWNLOAD_HANDLERS = {
     's3': None,
 }
